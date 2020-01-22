@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# Vivado v2018.3_AR71948 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Jan 12 15:27:47 2020
+# Process ID: 7956
+# Current directory: /media/wei/DATA/LW/Project/Vivado_Project/Panoseti/V0091/V0090/quabo_master_V0090/quabo_master/SDK/base_mb_wrapper_hw_platform_2
+# Command line: vivado -mode tcl
+# Log file: /media/wei/DATA/LW/Project/Vivado_Project/Panoseti/V0091/V0090/quabo_master_V0090/quabo_master/SDK/base_mb_wrapper_hw_platform_2/vivado.log
+# Journal file: /media/wei/DATA/LW/Project/Vivado_Project/Panoseti/V0091/V0090/quabo_master_V0090/quabo_master/SDK/base_mb_wrapper_hw_platform_2/vivado.jou
+#-----------------------------------------------------------
+write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit "up 0x0 quabo_v0091.bit" -checksum -file "quabo_v0091.bin" -force
+Command: write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit {up 0x0 quabo_v0091.bit} -checksum -file quabo_v0091.bin -force
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile quabo_v0091.bit
+Writing file ./quabo_v0091.bin
+Writing log file ./quabo_v0091.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+Checksum           0x9DAEDE68
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)            Checksum
+0x00000000    0x00661EDB    Jan 12 15:26:19 2020    quabo_v0091.bit    0x05679B8C
+File Checksum Total                                                    0x05679B8C
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit "up 0x0 quabo_v0091.bit" -checksum -file "quabo_v0091.bin" -force
+Command: write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit {up 0x0 quabo_v0091.bit} -checksum -file quabo_v0091.bin -force
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile quabo_v0091.bit
+Writing file ./quabo_v0091.bin
+Writing log file ./quabo_v0091.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+Checksum           0x9DAED7CB
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)            Checksum
+0x00000000    0x00661EDB    Jan 12 16:38:50 2020    quabo_v0091.bit    0x056794EF
+File Checksum Total                                                    0x056794EF
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit "up 0x0 quabo_v0091.bit" -checksum -file "quabo_v0091.bin" -force
+Command: write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit {up 0x0 quabo_v0091.bit} -checksum -file quabo_v0091.bin -force
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile quabo_v0091.bit
+Writing file ./quabo_v0091.bin
+Writing log file ./quabo_v0091.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+Checksum           0x9DAEC1CE
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)            Checksum
+0x00000000    0x00661EDB    Jan 12 17:18:58 2020    quabo_v0091.bit    0x05677EF2
+File Checksum Total                                                    0x05677EF2
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+quit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 12 17:55:38 2020...

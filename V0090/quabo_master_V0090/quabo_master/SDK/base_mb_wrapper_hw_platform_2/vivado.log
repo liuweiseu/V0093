@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2018.3_AR71948 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jan 20 16:02:41 2020
+# Process ID: 3701
+# Current directory: /media/wei/DATA/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/SDK/base_mb_wrapper_hw_platform_2
+# Command line: vivado -mode tcl
+# Log file: /media/wei/DATA/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/SDK/base_mb_wrapper_hw_platform_2/vivado.log
+# Journal file: /media/wei/DATA/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/SDK/base_mb_wrapper_hw_platform_2/vivado.jou
+#-----------------------------------------------------------
+write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit "up 0x0 download.bit" -checksum -file "download.bin" -force
+Command: write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit {up 0x0 download.bit} -checksum -file download.bin -force
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile download.bit
+Writing file ./download.bin
+Writing log file ./download.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+Checksum           0x9DAED11A
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)          Checksum
+0x00000000    0x00661EDB    Jan 20 16:07:19 2020    download.bit     0x05678E3E
+File Checksum Total                                                  0x05678E3E
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit "up 0x0 download.bit" -checksum -file "download.bin" -force
+Command: write_cfgmem -format bin -size 32 -interface SPIx1 -loadbit {up 0x0 download.bit} -checksum -file download.bin -force
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile download.bit
+Writing file ./download.bin
+Writing log file ./download.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+Checksum           0x9DADB7FD
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)          Checksum
+0x00000000    0x00661EDB    Jan 20 16:30:18 2020    download.bit     0x05667521
+File Checksum Total                                                  0x05667521
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+quit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 20 17:55:10 2020...

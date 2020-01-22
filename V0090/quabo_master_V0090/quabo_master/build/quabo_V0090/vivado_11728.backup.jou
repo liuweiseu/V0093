@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jan 16 18:05:24 2020
+# Process ID: 11728
+# Current directory: D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3804 D:\LW\Project\Vivado_Project\Panoseti\V0093\V0090\quabo_master_V0090\quabo_master\build\quabo_V0090\quabo_V0090.xpr
+# Log file: D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/vivado.log
+# Journal file: D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090\vivado.jou
+#----------------------------------------------------------ststart_guopopen_project D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.xpupdate_compile_order -fileset sources_1
+1
+open_bd_design {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/bd/base_mb/base_mb.bd}
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.bit} [get_hw_devices xc7k160t_0]
+set_property PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k160t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+save_wave_config {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.bit} [get_hw_devices xc7k160t_0]
+set_property PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.ltx} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/LW/Project/Vivado_Project/Panoseti/V0093/V0090/quabo_master_V0090/quabo_master/build/quabo_V0090/quabo_V0090.runs/impl_1/base_mb_wrapper.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+close_hw
